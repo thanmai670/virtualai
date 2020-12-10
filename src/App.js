@@ -15,7 +15,7 @@ export default function  App(){
  const [selectedPark, setSelectedPark] = useState(null);
   return (<div>
     <ReactMapGl {...viewport} mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
-   // mapStyle = 'mapbox://styles/thanmaibk1999/ckiht634v6aft19qrsaxggctv'
+    mapStyle = 'mapbox://styles/thanmaibk1999/ckiht634v6aft19qrsaxggctv'
     onViewportChange={viewport => {
       setviewport(viewport);
       }}>

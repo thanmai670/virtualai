@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "virtualai",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
